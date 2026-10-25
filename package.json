@@ -1,0 +1,29 @@
+{
+  "name": "web-rotate-mcp",
+  "version": "0.1.0",
+  "description": "MCP server exposing websearch and webfetch tools backed by web-rotate-core provider rotation",
+  "type": "module",
+  "bin": {
+    "web-rotate-mcp": "./src/index.ts"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "check": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "web-rotate-core": "github:Sn0wo2/web-rotate-core"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.4",
+    "@types/html-to-text": "^9.0.4",
+    "prettier": "^3.9.10",
+    "typescript": "^7.0.2"
+  }
+}
