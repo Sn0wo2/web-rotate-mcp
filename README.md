@@ -18,10 +18,10 @@
       "args": ["x", "github:Sn0wo2/web-rotate-mcp"],
       "env": {
         "TAVILY_API_KEY": "tvly-xxx",
-        "WEB_ROTATE_CONFIG": "{\"timeoutMs\":60000,\"search\":{\"prefer\":\"keyless\",\"providers\":{\"tavily\":{\"keys\":\"{env:TAVILY_API_KEY}\"}}}}",
-      },
-    },
-  },
+        "WEB_ROTATE_CONFIG": "{\"timeoutMs\":60000,\"search\":{\"prefer\":\"keyless\",\"providers\":{\"tavily\":{\"keys\":\"{env:TAVILY_API_KEY}\"}}}}"
+      }
+    }
+  }
 }
 ```
 
